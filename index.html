@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DermaCare Clinic – Expert Dermatology & Skin Health</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Sticky Call Button -->
+<a href="tel:+919177916932" class="whatsapp-sticky" aria-label="Call Now to Book Appointment">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+  <span>Call Now to Book Appointment</span>
+</a>
+
+<!-- Header / Nav -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <span class="logo-mark">✦</span>
+      <span>DermaCare <em>Clinic</em></span>
+    </div>
+    <div class="nav-wrapper">
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav id="mobileMenu">
+    <a href="#treatments" onclick="closeMenu()">Treatments</a>
+	<a href="#doctor" onclick="closeMenu()">Our Doctor</a>
+	<a href="#results" onclick="closeMenu()">Results</a>
+	<a href="#reviews" onclick="closeMenu()">Testimonials</a>
+	<a href="tel:+919177916932" class="nav-cta" onclick="closeMenu()">Call Now</a>
+  </nav>
+
+</div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <div class="hero-badge">MBBS · MD Dermatology · 10+ Years</div>
+    <h1>Reclaim Clear, <em>Healthy Skin</em><br>With Precision Dermatology</h1>
+    <p class="hero-sub">Trusted by 500+ patients for acne, hairfall, and advanced skin treatments — delivered by a board-certified dermatologist.</p>
+    <div class="hero-actions">
+      <a href="tel:+919177916932" class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        Call Now to Book Appointment
+      </a>
+      <a href="#results" class="btn btn-ghost">See Patient Results ↓</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>500+</strong><span>Happy Patients</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>10+</strong><span>Years Experience</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>98%</strong><span>Satisfaction Rate</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Conditions Banner -->
+<div class="conditions-bar">
+  <div class="container conditions-inner">
+    <span>We treat:</span>
+    <span class="tag">Acne &amp; Acne Scars</span>
+    <span class="tag">Hairfall &amp; Hair Loss</span>
+    <span class="tag">Pigmentation</span>
+    <span class="tag">Anti-Ageing</span>
+    <span class="tag">Skin Glow</span>
+    <span class="tag">Eczema &amp; Psoriasis</span>
+  </div>
+</div>
+
+<!-- Treatments -->
+<section class="treatments" id="treatments">
+  <div class="container">
+    <div class="section-label">WHAT WE OFFER</div>
+    <h2>Treatments Designed<br>For <em>Real Results</em></h2>
+    <div class="treatments-grid">
+
+      <div class="treatment-card">
+        <div class="treatment-icon">◎</div>
+        <h3>Acne &amp; Scar Treatment</h3>
+        <p>Personalised protocols combining clinical-grade peels, topicals, and targeted therapies to clear active acne and fade scars — permanently.</p>
+      </div>
+
+      <div class="treatment-card featured">
+        <div class="treatment-badge">Most Popular</div>
+        <div class="treatment-icon">◈</div>
+        <h3>Hairfall &amp; Hair Restoration</h3>
+        <p>From PRP therapy to advanced medical-grade treatments, we diagnose the root cause of your hair loss and create a plan that works.</p>
+      </div>
+
+      <div class="treatment-card">
+        <div class="treatment-icon">◇</div>
+        <h3>Skin Brightening &amp; Glow</h3>
+        <p>Revive dull, uneven skin with physician-formulated brightening treatments — safe for all Indian skin tones.</p>
+      </div>
+
+      <div class="treatment-card">
+        <div class="treatment-icon">◉</div>
+        <h3>Pigmentation &amp; Dark Spots</h3>
+        <p>Targeted treatment for melasma, suntan, and post-inflammatory hyperpigmentation with long-lasting, visible correction.</p>
+      </div>
+
+      <div class="treatment-card">
+        <div class="treatment-icon">◌</div>
+        <h3>Anti-Ageing &amp; Rejuvenation</h3>
+        <p>Non-surgical solutions to address fine lines, wrinkles, and sagging — restoring a naturally youthful appearance.</p>
+      </div>
+
+      <div class="treatment-card">
+        <div class="treatment-icon">◐</div>
+        <h3>Medical Dermatology</h3>
+        <p>Expert diagnosis and treatment for eczema, psoriasis, fungal infections, and other medical skin conditions.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Before/After -->
+<section class="results" id="results">
+  <div class="container">
+    <div class="section-label">VISIBLE TRANSFORMATION</div>
+    <h2>Real Patients, <em>Real Results</em></h2>
+    <p class="section-sub">Every result shown is from our own patients. No filters, no stock photos.</p>
+    <div class="results-grid">
+
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
+            <div class="result-placeholder">
+              <span>Before</span>
+            </div>
+          </div>
+          <div class="result-img after">
+            <div class="result-placeholder after-placeholder">
+              <span>After</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-info">
+          <strong>Cystic Acne — 8 Week Protocol</strong>
+          <p>Priya, 24, Hyderabad</p>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
+            <div class="result-placeholder">
+              <span>Before</span>
+            </div>
+          </div>
+          <div class="result-img after">
+            <div class="result-placeholder after-placeholder">
+              <span>After</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-info">
+          <strong>Hairfall — 3 Month PRP + Treatment</strong>
+          <p>Rahul, 31, Warangal</p>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="result-images">
+          <div class="result-img before">
+            <div class="result-placeholder">
+              <span>Before</span>
+            </div>
+          </div>
+          <div class="result-img after">
+            <div class="result-placeholder after-placeholder">
+              <span>After</span>
+            </div>
+          </div>
+        </div>
+        <div class="result-info">
+          <strong>Melasma Pigmentation — 6 Week Protocol</strong>
+          <p>Sunita, 38, Secunderabad</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="results-cta">
+      <p>Want to see results like these?</p>
+      <a href="tel:+919177916932" class="btn btn-primary">Call Now to Book Appointment</a>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Signals -->
+<section class="trust">
+  <div class="container trust-inner">
+    <div class="trust-item">
+      <div class="trust-num">500+</div>
+      <div class="trust-label">Patients Treated</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-num">10+</div>
+      <div class="trust-label">Years of Practice</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-num">98%</div>
+      <div class="trust-label">Patient Satisfaction</div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-num">24h</div>
+      <div class="trust-label">Response Time</div>
+    </div>
+  </div>
+</section>
+
+<!-- Doctor — moved above results as required -->
+<section class="doctor" id="doctor">
+  <div class="container doctor-inner">
+    <div class="doctor-photo-wrap">
+      <div class="doctor-photo-placeholder">
+        <div class="doctor-initials">Dr. S</div>
+      </div>
+      <div class="doctor-credential-badge">MD Dermatology</div>
+    </div>
+    <div class="doctor-bio">
+      <div class="section-label">YOUR DOCTOR</div>
+      <h2>Meet <em>Dr. Sharma</em></h2>
+      <p class="doctor-title">MBBS, MD Dermatology · 10+ Years Clinical Experience</p>
+      <p>Dr. Sharma is a board-certified dermatologist with over a decade of experience treating complex skin and hair conditions across Hyderabad and Warangal. She specialises in evidence-based, personalised treatment plans — not generic prescriptions.</p>
+      <p>Her approach combines the latest clinical research with a deep understanding of Indian skin types, ensuring treatments that are both effective and safe for all complexions.</p>
+      <div class="doctor-credentials">
+        <div class="cred">✓ MBBS from reputed medical college</div>
+        <div class="cred">✓ MD Dermatology, post-graduate specialist</div>
+        <div class="cred">✓ Member, Indian Association of Dermatologists</div>
+        <div class="cred">✓ Published in peer-reviewed journals</div>
+      </div>
+      <a href="tel:+919177916932" class="btn btn-primary">Call Now to Book Appointment</a>
+    </div>
+  </div>
+</section>
+
+<!-- Google Reviews — added before testimonials -->
+<section class="google-reviews" id="reviews">
+  <div class="container">
+    <div class="section-label">GOOGLE REVIEWS</div>
+    <h2>Rated 4.8★ by <em>Patients</em></h2>
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Excellent doctor. My skin cleared up within weeks. The treatment was tailored specifically for me and the results speak for themselves."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div>
+            <strong>Ananya S.</strong>
+            <span>Acne Treatment · Warangal</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Very thorough consultation. Dr. Sharma explained everything patiently and the hairfall treatment really worked. Visible results within 2 months."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">V</div>
+          <div>
+            <strong>Vikram T.</strong>
+            <span>Hair Treatment · Hyderabad</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Best dermatologist in Warangal. My pigmentation is almost completely gone after 6 weeks. Highly professional and caring doctor."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">M</div>
+          <div>
+            <strong>Meena L.</strong>
+            <span>Pigmentation · Warangal</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+
+<!-- How It Works -->
+<section class="process">
+  <div class="container">
+    <div class="section-label">HOW IT WORKS</div>
+    <h2>Your Journey to <em>Better Skin</em></h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Call Us to Book</h3>
+        <p>Give us a quick call — tell us your concern and we'll confirm your appointment within the hour.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Personalised Consultation</h3>
+        <p>Dr. Sharma conducts a thorough skin analysis and builds a treatment plan specific to your skin type and condition.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Begin Your Treatment</h3>
+        <p>Start your protocol with full support — regular follow-ups, check-ins, and adjustments as needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Maps — added before footer -->
+<section class="clinic-location">
+  <div class="container">
+    <div class="section-label">FIND US</div>
+    <h2>Visit Our <em>Clinic</em></h2>
+    <p class="section-sub">Conveniently located and easily accessible. Walk-ins welcome during clinic hours.</p>
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps?q=40.758896,-73.985130&z=17&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+  <div class="container cta-inner">
+    <div class="section-label light">START TODAY</div>
+    <h2>Your Skin Deserves<br><em>Expert Care</em></h2>
+    <p>Free consultation. No waiting. Direct access to your dermatologist.</p>
+    <a href="tel:+919177916932" class="btn btn-white">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Call Now to Book Appointment
+    </a>
+    <p class="cta-note">Typically answers within minutes · Appointments available 7 days a week</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-mark">✦</span>
+        <span>DermaCare <em>Clinic</em></span>
+      </div>
+      <p>Expert dermatology care for acne, hairfall, and advanced skin treatments. Serving patients across Hyderabad, Warangal, and Telangana.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Treatments</h4>
+      <a href="#">Acne Treatment</a>
+      <a href="#">Hairfall Treatment</a>
+      <a href="#">Skin Brightening</a>
+      <a href="#">Pigmentation</a>
+      <a href="#">Anti-Ageing</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Call us to book</p>
+      <a href="tel:+919177916932" class="footer-wa">+91 91779 16932</a>
+      <p style="margin-top:12px; font-size:0.85rem; color:#94a3b8;">Mon – Sat: 9am – 7pm<br>Sunday: 10am – 2pm</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 DermaCare Clinic. All rights reserved. Results may vary between patients.</p>
+  </div>
+</footer>
+<!-- MOBILE STICKY NAV (ADDED ONLY) -->
+<div class="mobile-nav">
+  <a href="#">Home</a>
+  <a href="#treatments">Treatments</a>
+  <a href="tel:+919177916932" class="call-highlight">Call Now</a>
+</div>
+<script>
+function toggleMenu() {
+  var menu = document.getElementById("mobileMenu");
+  menu.classList.toggle("active");
+}
+
+function closeMenu() {
+  var menu = document.getElementById("mobileMenu");
+  menu.classList.remove("active");
+}
+</script>
+</body>
+</html>
