@@ -514,8 +514,31 @@ section h2 {
   grid-template-columns: 1fr 1fr;
 }
 
-.result-img { position: relative; }
+.result-img {
+  position: relative;
+}
 
+.result-img.before::after {
+  content: "Before";
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: white;
+  padding: 3px 8px;
+  font-size: 0.7rem;
+  border-radius: 4px;
+}
+
+.result-img.after::after {
+  content: "After";
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: white;
+  padding: 3px 8px;
+  font-size: 0.7rem;
+  border-radius: 4px;
+}
 .result-placeholder {
   height: 180px;
   background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
